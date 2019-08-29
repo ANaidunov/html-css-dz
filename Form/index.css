@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(71, 208, 250);
+}
+
+.heading {
+    margin: 0;
+}
+
+.reg_form {
+    width: 40%;
+    border: black solid 2px;
+    padding: 0% 3% 0% 3%;
+    margin: 0% 3% 3% 0%;
+}
+
+.field {
+    border-bottom: black dotted 1px;
+    padding: 2% 0% 2% 0%;
+}
+
+label {
+    display: inline-block;
+    width:100px;
+    text-align: left;
+}
+
+.button {
+    text-align: center;
+    padding: 2% 0% 2% 0%;
+}

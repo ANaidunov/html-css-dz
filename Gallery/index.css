@@ -1,0 +1,44 @@
+body {
+    background-image: url(images/background.jpg);
+    width: 100%;
+} 
+
+p.logo {
+    text-align: center;
+}
+
+.table {
+    width: auto;
+    height: auto;
+    margin: 0% 7% 0% 7%;
+    background-image: none;
+}
+
+.table_cell {
+    float: left;
+    text-align: center;
+    background-color: rgb(255, 226, 172);
+    border-style: solid;
+    border-color: gray;
+    padding: 0.5%;
+    margin: 0.5%;
+    width: 150px;
+    height: 250px;
+    position: relative;
+}
+
+.table_cell img {
+    width: auto;
+    max-width: 97%;
+    height: auto;
+    max-height: 80%;
+}
+
+.table_cell p {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    left: 10%;
+    right: 10%;
+    margin: 0;
+}
